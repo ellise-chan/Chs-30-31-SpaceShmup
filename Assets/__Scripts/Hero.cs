@@ -41,7 +41,7 @@ public class Hero : MonoBehaviour {
         {
             Debug.LogError("Hero.Awake() - Attempted to assign second Hero.S!");
         }
-        //fireDelegate += TempFire;
+        fireDelegate += TempFire;
 
         // Reset the weapons to start _Hero with 1 blaster
         ClearWeapons();
